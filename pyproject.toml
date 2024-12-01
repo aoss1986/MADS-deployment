@@ -3,7 +3,7 @@ name = "mads-deployment"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Raoul Grouls", email = "Raoul.Grouls@han.nl" }
+    { name = "andres", email = "ao.sanchezsaavedra@student.han.nl" }
 ]
 dependencies = [
     "loguru>=0.7.2",
