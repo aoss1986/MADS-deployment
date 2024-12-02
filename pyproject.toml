@@ -5,7 +5,9 @@ description = "Add your description here"
 authors = [
     { name = "andres", email = "ao.sanchezsaavedra@student.han.nl" }
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.5",
+]
 readme = "README.md"
 requires-python = ">= 3.12"
 
