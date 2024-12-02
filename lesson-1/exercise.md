@@ -42,3 +42,5 @@ Please note that you will probably want to install dependencies in the ingest an
 images too, but if it are just one or two dependencies,
 it is reasonable to ommit the requirements file and
 simply do eg. `RUN pip install --no-cache-dir pandas` to install just pandas.
+
+I provides an example Makefile, to show you how to mount volumes with the `-v` flag
