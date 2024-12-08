@@ -3,7 +3,7 @@ FROM python:3.12-slim
 COPY /home/andres/so3_mads/deployment/MADS-deployment/*.toml /src/
 COPY /home/andres/so3_mads/deployment/MADS-deployment/1-docker/notebooks/data /src/
 COPY /home/andres/so3_mads/deployment/MADS-deployment/1-docker/notebooks/img /src/
-COPY notebooks/1.ingest.ipynb /src/
+COPY notebooks/ingest.ipynb /src/
 
 WORKDIR /src
 
