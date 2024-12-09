@@ -1,9 +1,9 @@
 FROM python:3.12-slim
 
-COPY /home/andres/so3_mads/deployment/MADS-deployment/*.toml /src/
-COPY /home/andres/so3_mads/deployment/MADS-deployment/1-docker/notebooks/data /src/
-COPY /home/andres/so3_mads/deployment/MADS-deployment/1-docker/notebooks/img /src/
-COPY /home/andres/so3_mads/deployment/MADS-deployment/1-docker/notebooks/ingest.ipynb /src/
+COPY ~/*.toml /src/
+COPY /data /src/
+COPY /img /src/
+COPY /ingest.ipynb /src/
 
 WORKDIR /src
 
