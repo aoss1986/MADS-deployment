@@ -1,5 +1,5 @@
 import resources
 
-t1 = Test1()
+t1 = resources.Test1()
 
-t2 = Test2()
+t2 = resources.Test2()
