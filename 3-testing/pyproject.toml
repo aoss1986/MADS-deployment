@@ -10,7 +10,7 @@ requires-python = ">=3.12.7"
 dependencies = [
     "fastapi[standard]>=0.115.6",
     "hypothesis>=6.122.1",
-    "loguru>=0.7.2",
+    "loguru>=0.7.3",
     "pytest-cov>=6.0.0",
     "pytest>=8.3.4",
     "requests>=2.32.3",
